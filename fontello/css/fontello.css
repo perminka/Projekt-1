@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?43141177');
+  src: url('../font/fontello.eot?43141177#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?43141177') format('woff2'),
+       url('../font/fontello.woff?43141177') format('woff'),
+       url('../font/fontello.ttf?43141177') format('truetype'),
+       url('../font/fontello.svg?43141177#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?43141177#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-road:before { content: '\e800'; } /* '' */
+.icon-pencil:before { content: '\e801'; } /* '' */
+.icon-thumbs-up:before { content: '\e802'; } /* '' */
+.icon-facebook-circled:before { content: '\e803'; } /* '' */
+.icon-cog:before { content: '\e804'; } /* '' */
+.icon-arrows-cw:before { content: '\e805'; } /* '' */
+.icon-spin3:before { content: '\e832'; } /* '' */
+.icon-warehouse:before { content: '\e840'; } /* '' */
+.icon-globe:before { content: '\f018'; } /* '' */
+.icon-twitter:before { content: '\f099'; font-size:25px; color: #fff; padding: 15px;} /* '' */
+.icon-twitter:hover:before { content: '\f099'; font-size:25px; color: #621D00; padding: 15px;} /* '' */
+.icon-facebook:before { content: '\f09a'; font-size:25px; color: #fff; padding: 15px} /* '' */
+.icon-facebook:hover:before { content: '\f09a'; font-size:25px; color: #621D00; padding: 15px;} /* '' */
+.icon-rss:before { content: '\f09e'; font-size:25px; color: #fff; padding: 15px;} /* '' */
+.icon-rss:hover:before { content: '\f09e'; font-size:25px; color: #621D00; padding: 15px;} /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-tumblr:before { content: '\f173'; font-size:25px; color: #fff; padding: 15px;} /* '' */
+.icon-tumblr:hover:before { content: '\f173'; font-size:25px; color: #621D00; padding: 15px;} /* '' */
+.icon-dribbble:before { content: '\f17d'; font-size:25px; color: #fff; padding: 15px;} /* '' */
+.icon-dribbble:hover:before { content: '\f17d'; font-size:25px; color: #621D00; padding: 15px;} /* '' */
+.icon-chart-area:before { content: '\f1fe'; } /* '' */
+.icon-facebook-circled-1:before { content: '\f30d'; } /* '' */
+.icon-gplus-circled:before { content: '\f310'; } /* '' */

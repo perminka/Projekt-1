@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="eng">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Fervency - free responsive template</title>
+		<meta name="keywords" content="free template, responsive website"/>
+		<meta name="description" content="This is Fervency - free responsive template which you can use for your purposes."/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+		<link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
+	</head>
+
+	
+	<body>
+
+<!-- Header -->
+
+		<header>
+			<div id="logo">
+				<div><img src="logo.png" alt="logo"/></div>
+				<h4 id="underlogo">template design by <a href="">freecssteplates.org</a></h4>
+			</div>
+			<nav>
+					<ul>
+						<li><a class="navigation" href="#first">portfolio</a></li>
+						<li><a class="navigation" href="#second">our website</a></li>
+						<li><a class="navigation" href="#third">newsletter</a></li>
+						<li><a class="navigation" href="#fourth">get in touch</a></li>
+					</ul>
+			</nav>	
+		</header>
+
+		<!-- First section - PORTFOLIO -->
+		<div id="portfolio">
+				<section class="element">
+							<h1 class="title" id="first">portfolio</h1>
+							<h3 class="undertitle">integer sit amet vel arcu aliquet petrium</h3>
+							<div id="designs">
+
+					<!-- Project 1 -->
+
+									<div class="project">
+												<a href=""><img src="images/first.jpg"/></a>
+												<h5 class="name">praesent scelerisque</h5>
+												<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+												<button class="click"><a href="">etiam posuere</a></button>
+									</div>
+
+					<!-- Project 2 -->
+
+									<div class="project">
+												<a href=""><img src="images/second.jpg"/></a>
+												<h5 class="name">praesent scelerisque</h5>
+												<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+												<button class="click"><a href="">etiam posuere</a></button>
+									</div>
+
+					<!-- Project 3 -->
+
+									<div class="project">
+												<a href=""><img src="images/third.jpg"/></a>
+												<h5 class="name">praesent scelerisque</h5>
+												<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+												<button class="click"><a href="">etiam posuere</a></button>
+									</div>
+
+					<!-- Project 4 -->
+
+									<div class="project">
+												<a href=""><img src="images/fourth.jpg"/></a>
+												<h5 class="name">praesent scelerisque</h5>
+												<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+												<button class="click"><a href="">etiam posuere</a></button>
+									</div>
+							</div>
+				</section>
+		</div>
+
+
+
+		<!-- Second section - WEBSITE -->	
+		<div id="website">
+			<section class="element">
+						<article>
+								<h1 class="title" id="second">our website</h1>
+								<h3 class="undertitle">mauris veluputate solor sit amet nibh</h3>
+								<p>This is <strong>Fervency</strong>, a free, fully standards-compliant CSS template designed by <a href=""><strong>FreeCSSTemplates.org</strong></a>. The photos in this template are from <a href=""><strong>Fotograph</strong></a>. This free template is released under a <a href=""><strong>Creative Commons Attributions 3.0</strong></a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :)</p>
+								<button class="click"><a href="">etiam posurere</a></button>
+						</article>
+			</section>
+		</div>
+
+
+
+		<!-- Third section - NEWSLETTER -->
+		<div id="newsletter">
+			<section class="element">
+							<h1 class="title" id="third">newsletter</h1>
+							<h3 class="undertitle">integer sit amet vel arcu aliquet petrium</h3>
+							<form action="#" method="post">
+								<div class="form">
+									<input type="text" placeholder="Name">
+								</div>
+								<div class="form">
+									<input type="email" placeholder="E-mail">
+								</div>
+								<div class="form">
+									<textarea name="Message" placeholder="Message"></textarea>
+								</div>
+								<div class="form">
+									<input type="submit" class="submit" value="Send Message">
+							</form>
+			</section>
+		</div>
+
+
+
+		<!-- Fourth section - GET IN TOUCH -->
+		<div id="touch">
+			<section class="element">
+							<h1 class="title" id="fourth">get in touch</h1>
+							<h3 class="undertitle">phasellus nec erat sit amet nibh pellentesque congue</h3>
+							<div id="contact">
+						<!-- Twitter -->
+									<div class="media"><a href=""><i class="icon-twitter"></i></a></div>
+						<!-- Facebook -->
+									<div class="media"><a href=""><i class="icon-facebook"></i></a></div>
+						<!-- ? -->
+									<div class="media"><a href=""><i class="icon-dribbble"></i></a></div>
+						<!-- ? -->
+									<div class="media"><a href=""><i class="icon-tumblr"></i></a></div>
+						<!-- ? -->
+									<div class="media"><a href=""><i class="icon-rss"></i></a></div>
+							</div>
+			</section>
+		</div>
+
+
+
+		<!-- Footer -->
+			<footer>
+					<div>copywright (c) 2013 sitename.com. all rights reserved.</div>
+					<div>photos by <a href=""><strong>fotograph</strong></a></div>
+					<div>design by <a href=""><strong>freecsstemplates.org</strong></a>.</div>
+			</footer>
+
+
+<!-- JavaScript -->
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$(document).on('click', '.navigation', function(event){
+	    event.preventDefault();
+	    $('body').animate({
+	        scrollTop: $($.attr(this, 'href')).offset().top
+	    }, 800);
+	});
+</script>	
+
+
+	</body>
+	</html>
